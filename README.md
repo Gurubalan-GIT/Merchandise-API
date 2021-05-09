@@ -23,6 +23,8 @@ This is an ongoing merchandise API created with Django backend. Front-end will h
   ```
 
 - Run `pipenv install` & `pipenv shell` to start the environment.
+- Run `python3 manage.py makemigrations` to detect and make migrations.
+- Run `python3 manage.py migrate` to execute migrations into database.
 - Run `python3 manage.py runserver` to start the application.
 
 ## Pointers to note
